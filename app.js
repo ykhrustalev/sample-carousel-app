@@ -4,6 +4,8 @@
  *
  * DataArt, Enjoy IT!
  *
+ * author Yuri Khrustalev <yuri.khrustalev@gmail.com>
+ *
  */
 
 // подсветка в IDE
