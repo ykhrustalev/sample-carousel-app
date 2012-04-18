@@ -11,6 +11,10 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+    <link rel="stylesheet" href="carousel/style.css"/>
+    <script src="carousel/zepto.js"></script>
+    <script src="carousel/app.js"></script>
   </head>
   <body>
     <div class="wrapper">
@@ -29,7 +33,36 @@
 
 <p>Sample application to show how to build the carousel with only js and little
 jquery</p>
+
+        <div class="carousel">
+
+          <!-- Контейнер видмой части карусели-->
+          <div class="viewPort"></div>
+
+          <div class="wrap-slides">
+            <!-- Контейнер слайдов -->
+            <ul class="slidesContainer">
+              <li class="b1"></li>
+              <li class="b2"></li>
+              <li class="b3"></li>
+              <li class="b4"></li>
+              <li class="b5"></li>
+              <li class="b6"></li>
+              <li class="b7"></li>
+            </ul>
+          </div>
+
+          <!-- Управоление карулью -->
+          <div class="prev">Prev</div>
+          <div class="next">Next</div>
+          <div class="auto">Auto</div>
+          <div class="manual">Manual</div>
+          <div class="reset">Reset</div>
+        </div>
       </section>
+
+
+
       <footer>
         <p>This project is maintained by <a href="https://github.com/ykhrustalev">ykhrustalev</a></p>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>

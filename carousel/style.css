@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  /*margin: 20px 0 0 100px;*/
+  background: #fff;
+  position: absolute;
+  overflow: hidden;
+}
+
+body {
+  width: 100% ;
+  height: 100%;
+  overflow: hidden;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-user-select: none;
+  -webkit-text-size-adjust: none;
+}
+
+.carousel {
+  position: absolute;
+  /*margin: 50px;*/
+  overflow: hidden;
+  width: 500px;
+  height: 400px;
+}
+
+.viewPort {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #000000;
+  z-index: 1;
+}
+
+.wrap-slides {
+  position: absolute;
+  width: 1024px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.slidesContainer {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 9999px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.slidesContainer li {
+  width: 200px;
+  height: 200px;
+  /*display: inline-block;*/
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+.b1 {background-color: red;}
+.b2 {background-color: orange;}
+.b3 {background-color: yellow;}
+.b4 {background-color: green;}
+.b5 {background-color: blue;}
+.b6 {background-color: #00008b;}
+.b7 {background-color: purple;}
+
+.prev,
+.next,
+.auto,
+.manual,
+.reset {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  display: inline-block;
+  top: 300px;
+  left: 0;
+  background-color: #faebd7;
+  border: 1px solid #cccccc;
+}
+
+.next {
+  left: 100px;
+}
+
+.auto {
+  left: 200px;
+}
+.manual {
+  left: 300px;
+}
+
+.reset {
+  left: 400px;
+  background-color: red;
+}
